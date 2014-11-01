@@ -40,7 +40,7 @@ RPM と Chef, Fog, Berkshelf などに必要なソフトウェアをインスト
 
 ```bash
 % sudo -i
-# rpm -ivh https://github.com/josug-book1-materials/rpm-openstack-sample/raw/master/ruby-2.1.3.el6.x86_64.rpm
+# rpm -ivh https://github.com/josug-book1-materials/rpm-openstack-sample/raw/master/ruby.openstack.book.rpm
 # yum groupinstall 'Development Tools'
 # yum install readline-devel
 ```
