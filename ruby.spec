@@ -1,7 +1,7 @@
 %define rubyver         2.1.3
 
 Name:           ruby
-Version:        %{rubyver}%
+Version:        %{rubyver}
 Release:        2%{?dist}
 License:        Ruby License/GPL - see COPYING
 URL:            http://www.ruby-lang.org/
