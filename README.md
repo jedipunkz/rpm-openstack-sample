@@ -9,9 +9,9 @@ OpenStack 書籍で扱う踏み台サーバ (centos-base イメージ) にて Ru
 ビルドするために必要なソフトウェアのインストールを行う。
 
 ```bash
+$ su -
 # yum groupinstall 'Development Tools'
-# yum install readline-devel libyaml-devel
-# yum install gdbm-devel tcl-devel openssl-devel db4-devel
+# yum install readline-devel libyaml-devel gdbm-devel tcl-devel openssl-devel db4-devel
 ```
 
 EPEL レポジトリを有効にする
